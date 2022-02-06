@@ -1,5 +1,6 @@
 #!/bin/bash
-echo ''
+apt update && apt upgrade -y
+apt install curl
 clear
 echo ''
 echo '             ___ __  __ ____    _                '
