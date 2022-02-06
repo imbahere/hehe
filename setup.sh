@@ -2,9 +2,9 @@
 echo ''
 clear
 echo ''
-echo '             ___ __  __ ____    _        '
-echo '            |_ _|  \/  | __ )  / \         '
-echo '             | || |\/| |  _ \ / _ \           '
+echo '             ___ __  __ ____    _                '
+echo '            |_ _|  \/  | __ )  / \               '
+echo '             | || |\/| |  _ \ / _ \              '
 echo '             | || |  | | |_) / ___ \             '
 echo '            |___|_|  |_|____/_/   \_\            '
 echo '                  Premium Script                 '
@@ -12,7 +12,7 @@ echo ''
 echo ' ............................................... '
 echo '                Autoscript By Akmal              '
 echo ''
-echo '                  Build in 2021                  '
+echo '                  Build in 2022                  '
 echo ''
 echo '                     Telegram                    '
 echo '         Telegram Channel: t.me/pamron95         '
@@ -21,6 +21,7 @@ echo ''
 echo '                  Tunggu 5 Saat!                 '
 echo ' ............................................... '
 sleep 5
+
 clear
 if [ "${EUID}" -ne 0 ]; then
 		echo "You need to run this script as root"
@@ -186,10 +187,9 @@ echo "   - White Label" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo ""
-echo "   - 1st Dev/Main            : CTechDidik"  | tee -a log-install.txt
-echo "   - 1st Dev/Youtube         : CTech Didik -Subscribe Now!"  | tee -a log-install.txt
-echo "   - 2nd Dev/ Telegram       : @sam_sfx"  | tee -a log-install.txt
-echo "   - Menu Dev/ Telegram      : @kedairare"  | tee -a log-install.txt
+echo "   - Developer       : Akmal"      | tee -a log-install.txt
+echo "   - Telegram        : @imbahere"  | tee -a log-install.txt
+echo "   - Telegram Channel: @pamron95"  | tee -a log-install.txt
 echo ""
 echo "         Terima kasih kerana menggunakan script ni            " | tee -a log-install.txt
 echo "------------------Script Created By Akmal---------------------" | tee -a log-install.txt
