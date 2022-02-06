@@ -2,37 +2,24 @@
 echo ''
 clear
 echo ''
-echo '  ____ _____ _____ ____ _   _      ____ ___ ____ ___ _  __  '
-echo ' / ___|_   _| ____/ ___| | | |    |  _ \_ _|  _ \_ _| |/ /  '
-echo '| |     | | |  _|| |   | |_| |    | | | | || | | | || ' /  ''
-echo '| |___  | | | |__| |___|  _  |    | |_| | || |_| | || . \ '''
-echo ' \____| |_| |_____\____|_| |_|    |____/___|____/___|_|\_\  '
-echo '                 Free Script untuk semua!                   '
+echo '            _    _                    _          '
+echo '           / \  | | ___ __ ___   __ _| |         '
+echo '          / _ \ | |/ / '_ ` _ \ / _` | |         '
+echo '         / ___ \|   <| | | | | | (_| | |         '
+echo '        /_/   \_\_|\_\_| |_| |_|\__,_|_|         '
+echo '                  Premium Script                 '
 echo ''
-echo '                    Haram Untuk Dijual                      '
-echo '                 Siapa beli, dia kena scam                  '
+echo ' ............................................... '
+echo '                Autoscript By Akmal              '
 echo ''
-echo ' .......................................................... '
-echo '                 Autoscript By CTech Didik'
-echo '                 Original Script by SamVPN                  '
-echo '                        Menu by RARE                        '
+echo '                  Build in 2021                  '
 echo ''
-echo '                       Build in 2021                        '
+echo '                     Telegram                    '
+echo '         Telegram Channel: t.me/pamron95         '
+echo '           Telegram Akmal: @imbahere             '
 echo ''
-echo '                    Youtube: CTechDidik                     '
-echo '                Like dan Subscribe sekarang                 '
-echo ''
-echo ''
-echo '                         Telegram                           '
-echo '              Telegram Channel t.me/ctechdidik              '
-echo '             Telegram Owner CTech Didik? rahsia             '
-echo '                  Telegram SamVPN @sam_sfx                  '
-echo '                 Telegram SamVPN @kedairare                 '
-echo ''
-echo ''
-echo ''
-echo '                       Tunggu 5 Saat!                       '
-echo ' .......................................................... '
+echo '                  Tunggu 5 Saat!                 '
+echo ' ............................................... '
 sleep 5
 clear
 if [ "${EUID}" -ne 0 ]; then
@@ -47,21 +34,20 @@ red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- ipinfo.io/ip);
-IZIN=$( curl https://raw.githubusercontent.com/muhamadparizan/kebenaran/main/ipdibenarkan | grep $MYIP )
+IZIN=$( curl https://raw.githubusercontent.com/imbahere/hehe/main/z.ip | grep $MYIP )
 if [ $MYIP = $IZIN ]; then
 clear
-echo -e "${green}Tahniah! Anda Dibenarkan menggunakan Script Ctech Didik...${NC}"
+echo -e "${green}Tahniah! Anda Dibenarkan menggunakan Script Akmal...${NC}"
 sleep 5
 else
 clear
 echo ""
 rm -f setup.sh
 echo '                            ...                           '
-echo '        Anda Tidak Dibenarkan Menggunakan Script ini!     '
+echo '        Anda Tidak Dibenarkan Mengguna Script ini!        '
 echo '                            ...                           '
-echo '    Tonton video Youtube saya dan dapatkan kebenaran!     '
-echo '   copy link utube ini:  https://youtu.be/gWk_k3SoaoI     '
-echo '                  Telegram t.me/ctechdidik                '
+echo '          Sila chat owner dan dapatkan kebenaran!         '
+echo '                  Telegram t.me/imbahere                  '
 sleep 20
 exit 0
 fi
@@ -96,38 +82,38 @@ clear
 echo '============================================='
 echo '        Installing SSH & OPENVPN '
 echo '============================================='
-wget https://raw.githubusercontent.com/muhamadparizan/ahahk/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
+wget https://raw.githubusercontent.com/imbahere/hehe/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
 echo '============================================='
 echo '        Installing SSTP '
 echo '============================================='
-wget https://raw.githubusercontent.com/muhamadparizan/ahahk/main/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
+wget https://raw.githubusercontent.com/imbahere/hehe/main/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
 echo '============================================='
 echo '        Installing ssr '
 echo '============================================='
-wget https://raw.githubusercontent.com/muhamadparizan/ahahk/main/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
+wget https://raw.githubusercontent.com/imbahere/hehe/main/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
 echo '============================================='
 echo '        Installing shadowsocksobfs '
 echo '============================================='
-wget https://raw.githubusercontent.com/muhamadparizan/ahahk/main/sodosok.sh && chmod +x sodosok.sh && screen -S ss ./sodosok.sh
+wget https://raw.githubusercontent.com/imbahere/hehe/main/sodosok.sh && chmod +x sodosok.sh && screen -S ss ./sodosok.sh
 echo '============================================='
 echo '        Installing WIREGUARD '
 echo '============================================='
-wget https://raw.githubusercontent.com/muhamadparizan/ahahk/main/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
+wget https://raw.githubusercontent.com/imbahere/hehe/main/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
 echo '============================================='
 echo '        Installing V2RAY '
 echo '============================================='
-wget https://raw.githubusercontent.com/muhamadparizan/ahahk/main/ins-vt.sh && chmod +x ins-vt.sh && screen -S v2ray ./ins-vt.sh
+wget https://raw.githubusercontent.com/imbahere/hehe/main/ins-vt.sh && chmod +x ins-vt.sh && screen -S v2ray ./ins-vt.sh
 echo '============================================='
 echo '        Installing ipsec '
 echo '============================================='
-wget https://raw.githubusercontent.com/muhamadparizan/ahahk/main/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
+wget https://raw.githubusercontent.com/imbahere/hehe/main/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
 echo '        Installing XRAY '
 echo '============================================='
-wget https://raw.githubusercontent.com/muhamadparizan/ahahk/main/install-xray.sh && chmod +x install-xray.sh && screen -S v2ray ./install-xray.sh
+wget https://raw.githubusercontent.com/imbahere/hehe/main/install-xray.sh && chmod +x install-xray.sh && screen -S v2ray ./install-xray.sh
 echo '============================================='
 echo '        Installing Websocket '
 echo '============================================='
-wget https://raw.githubusercontent.com/muhamadparizan/ahahk/main/set-br.sh && chmod +x set-br.sh && ./set-br.sh
+wget https://raw.githubusercontent.com/imbahere/hehe/main/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 
 
 rm -f /root/ssh-vpn.sh
@@ -141,13 +127,10 @@ rm -f /root/ipsec.sh
 rm -f /root/set-br.sh
 echo "1.1" > /home/ver
 
-echo "echo '                Dibina oleh CTechDidik             '" >> .profile
+echo "echo '                Dibina oleh Akmal                  '" >> .profile
 echo "echo ''" >> .profile
-echo "echo '                 Youtube: CTech Didik              '" >> .profile
-echo "echo '     Telegram Channel: https://t.me/ctechdidik     '" >> .profile
-echo "echo ''" >> .profile
-echo "echo '              Raw Script oleh @sam_sfx             '" >> .profile
-echo "echo '             Menu Style oleh @kedairare            '" >> .profile
+echo "echo '          Telegram: https://t.me/imbahere          '" >> .profile
+echo "echo '     Telegram Channel: https://t.me/pamron95       '" >> .profile
 echo "echo ''" >> .profile
 echo "echo '       Sila Type: 'menu', untuk ke menu utama      '" >> .profile
 echo "echo ''" >> .profile
@@ -208,9 +191,8 @@ echo "   - 1st Dev/Youtube         : CTech Didik -Subscribe Now!"  | tee -a log-
 echo "   - 2nd Dev/ Telegram       : @sam_sfx"  | tee -a log-install.txt
 echo "   - Menu Dev/ Telegram      : @kedairare"  | tee -a log-install.txt
 echo ""
-echo "                         Haram Untuk Dijual                                 " | tee -a log-install.txt
-echo "                       Siapa beli, dia kena scam                            " | tee -a log-install.txt
-echo "------------------Script Created By CTechDidik & SamVPN---------------------" | tee -a log-install.txt
+echo "         Terima kasih kerana menggunakan script ni            " | tee -a log-install.txt
+echo "------------------Script Created By Akmal---------------------" | tee -a log-install.txt
 
 sleep 3
 echo '============================================='
@@ -219,6 +201,6 @@ echo '============================================='
 echo ""
 rm -f /root/setup.sh
 rm -f /root/.bash_history
-echo " Reboot 15 Sec, Setelah ON type menu"
-sleep 15
+echo " Reboot dalam masa 5 Sec, Setelah ON type menu"
+sleep 5
 reboot

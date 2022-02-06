@@ -1,7 +1,7 @@
 #!/bin/bash
 curl https://rclone.org/install.sh | bash
 printf "q\n" | rclone config
-wget -O /root/.config/rclone/rclone.conf "https://raw.githubusercontent.com/muhamadparizan/ahahk/main/rclone.conf"
+wget -O /root/.config/rclone/rclone.conf "https://raw.githubusercontent.com/imbahere/hehe/main/rclone.conf"
 git clone  https://github.com/magnific0/wondershaper.git
 cd wondershaper
 make install
@@ -26,12 +26,12 @@ logfile ~/.msmtp.log
 EOF
 chown -R www-data:www-data /etc/msmtprc
 cd /usr/bin
-wget -O autobackup "https://raw.githubusercontent.com/muhamadparizan/ahahk/main/autobackup.sh"
-wget -O backup "https://raw.githubusercontent.com/muhamadparizan/ahahk/main/backup.sh"
-wget -O bckp "https://raw.githubusercontent.com/muhamadparizan/ahahk/main/bckp.sh"
-wget -O restore "https://raw.githubusercontent.com/muhamadparizan/ahahk/main/restore.sh"
-wget -O strt "https://raw.githubusercontent.com/muhamadparizan/ahahk/main/strt.sh"
-wget -O limit-speed "https://raw.githubusercontent.com/muhamadparizan/ahahk/main/limit-speed.sh"
+wget -O autobackup "https://raw.githubusercontent.com/imbahere/hehe/main/autobackup.sh"
+wget -O backup "https://raw.githubusercontent.com/imbahere/hehe/main/backup.sh"
+wget -O bckp "https://raw.githubusercontent.com/imbahere/hehe/main/bckp.sh"
+wget -O restore "https://raw.githubusercontent.com/imbahere/hehe/main/restore.sh"
+wget -O strt "https://raw.githubusercontent.com/imbahere/hehe/main/strt.sh"
+wget -O limit-speed "https://raw.githubusercontent.com/imbahere/hehe/main/limit-speed.sh"
 chmod +x autobackup
 chmod +x backup
 chmod +x bckp

@@ -276,12 +276,12 @@ mkdir -p /run/pluto
 service fail2ban restart 2>/dev/null
 service ipsec restart 2>/dev/null
 service xl2tpd restart 2>/dev/null
-wget -O /usr/bin/add-l2tp https://raw.githubusercontent.com/muhamadparizan/ahahk/main/add-l2tp.sh && chmod +x /usr/bin/add-l2tp
-wget -O /usr/bin/del-l2tp https://raw.githubusercontent.com/muhamadparizan/ahahk/main/del-l2tp.sh && chmod +x /usr/bin/del-l2tp
-wget -O /usr/bin/add-pptp https://raw.githubusercontent.com/muhamadparizan/ahahk/main/add-pptp.sh && chmod +x /usr/bin/add-pptp
-wget -O /usr/bin/del-pptp https://raw.githubusercontent.com/muhamadparizan/ahahk/main/del-pptp.sh && chmod +x /usr/bin/del-pptp
-wget -O /usr/bin/renew-pptp https://raw.githubusercontent.com/muhamadparizan/ahahk/main/renew-pptp.sh && chmod +x /usr/bin/renew-pptp
-wget -O /usr/bin/renew-l2tp https://raw.githubusercontent.com/muhamadparizan/ahahk/main/renew-l2tp.sh && chmod +x /usr/bin/renew-l2tp
+wget -O /usr/bin/add-l2tp https://raw.githubusercontent.com/imbahere/hehe/main/add-l2tp.sh && chmod +x /usr/bin/add-l2tp
+wget -O /usr/bin/del-l2tp https://raw.githubusercontent.com/imbahere/hehe/main/del-l2tp.sh && chmod +x /usr/bin/del-l2tp
+wget -O /usr/bin/add-pptp https://raw.githubusercontent.com/imbahere/hehe/main/add-pptp.sh && chmod +x /usr/bin/add-pptp
+wget -O /usr/bin/del-pptp https://raw.githubusercontent.com/imbahere/hehe/main/del-pptp.sh && chmod +x /usr/bin/del-pptp
+wget -O /usr/bin/renew-pptp https://raw.githubusercontent.com/imbahere/hehe/main/renew-pptp.sh && chmod +x /usr/bin/renew-pptp
+wget -O /usr/bin/renew-l2tp https://raw.githubusercontent.com/imbahere/hehe/main/renew-l2tp.sh && chmod +x /usr/bin/renew-l2tp
 touch /var/lib/premium-script/data-user-l2tp
 touch /var/lib/premium-script/data-user-pptp
 rm -f /root/ipsec.sh

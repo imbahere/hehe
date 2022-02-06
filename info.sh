@@ -1,10 +1,10 @@
 #!/bin/bash
 clear
 neofetch --ascii_distro Minix
-echo ' Created by CTechDidik '
-echo ' Youtube: CTech Didik  '
-echo 'RAW Script by @sam_sfx '
-echo 'Menu by @kedairare     '
+echo '         Build in 2022          '
+echo '        Created by Akmal        '
+echo '    Telegram: t.me/imbahere     '
+echo 'Telegram Channel: t.me/pamron95 '
 echo ''
 cat /root/log-install.txt
 echo ""

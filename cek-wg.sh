@@ -62,5 +62,4 @@ listClients(){
 }
 listClients
 echo "-------------------------------";
-echo -e "Script By SAMVPN"
 
