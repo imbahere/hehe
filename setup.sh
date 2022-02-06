@@ -34,7 +34,7 @@ red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- ipinfo.io/ip);
-IZIN=$( curl https://raw.githubusercontent.com/imbahere/hehe/main/z.ip | grep $MYIP )
+IZIN=$( curl https://raw.githubusercontent.com/imbahere/access/main/ip | grep $MYIP )
 if [ $MYIP = $IZIN ]; then
 clear
 echo -e "${green}Tahniah! Anda Dibenarkan menggunakan Script Akmal...${NC}"
