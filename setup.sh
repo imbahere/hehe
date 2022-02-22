@@ -1,6 +1,6 @@
 #!/bin/bash
 apt update && apt upgrade -y
-apt install curl
+apt install curl -y
 clear
 echo ''
 echo '             ___ __  __ ____    _                '
@@ -134,9 +134,9 @@ echo "echo ''" >> .profile
 echo "echo '          Telegram: https://t.me/imbahere          '" >> .profile
 echo "echo '     Telegram Channel: https://t.me/pamron95       '" >> .profile
 echo "echo ''" >> .profile
-echo "echo '       Sila Type: 'menu', untuk ke menu utama      '" >> .profile
-echo "echo ''" >> .profile
-echo "echo '    Sila Type: 'info', untuk melihat info skrip    '" >> .profile
+echo "echo '     -----------------------------------------     '" >> .profile
+echo "echo '       Sila taip menu untuk ke menu utama      '" >> .profile
+echo "echo '     -----------------------------------------     '" >> .profile
 echo "echo ''" >> .profile
 clear
 echo " "
@@ -192,6 +192,12 @@ echo "   - Developer       : Akmal"      | tee -a log-install.txt
 echo "   - Telegram        : @imbahere"  | tee -a log-install.txt
 echo "   - Telegram Channel: @pamron95"  | tee -a log-install.txt
 echo ""
+=====================================================
+Terima Kasih kerana menggunakan script DREAMNETWORK
+Contact Admin Jika Perlu : 01119800265
+=====================================================
+
+
 echo "         Terima kasih kerana menggunakan script ni            " | tee -a log-install.txt
 echo "------------------Script Created By Akmal---------------------" | tee -a log-install.txt
 

@@ -1,4 +1,7 @@
 #!/bin/bash
+yl='\e[031;1m'
+bl='\e[36;1m'
+gl='\e[32;1m'
 clear
 echo -e ""
 ISP=$(curl -s ipinfo.io/org | cut -d " " -f 2-10 )
@@ -15,17 +18,17 @@ echo -e "* SERVER        : $ISP"
 echo -e "* City          : $CITY"
 echo -e "* IP VPS        : $IPVPS"
 echo -e ""
-echo '                             ___ __  __ ____    _                             '
-echo '                            |_ _|  \/  | __ )  / \                            '
-echo '                             | || |\/| |  _ \ / _ \                           '
-echo '                             | || |  | | |_) / ___ \                          '
-echo '                            |___|_|  |_|____/_/   \_\                         '
+echo '                             ___ __  __ ____    _                             ' | lolcat
+echo '                            |_ _|  \/  | __ )  / \                            ' | lolcat
+echo '                             | || |\/| |  _ \ / _ \                           ' | lolcat
+echo '                             | || |  | | |_) / ___ \                          ' | lolcat
+echo '                            |___|_|  |_|____/_/   \_\                         ' | lolcat
 echo ''
 echo -e ""
-echo -e "\e[1;33m=============================-Menu-=============================\e[0m'"
-echo -e "\e[1;33m*               Senarai Menu yang Disediakan\e[0m"
+echo -e "\e[1;33m=============================-Menu-=============================\e[0m'" | lolcat
+echo -e "\e[1;33m*               Senarai Menu yang Disediakan\e[0m" | lolcat
 echo -e ""
-echo -e "\e[1;33m=========================-List Protocol-========================\e[0m'"
+echo -e "\e[1;33m=========================-List Protocol-========================\e[0m'" | lolcat
 echo -e "\e[1;31m* [1]\e[0m  \e[1;32m: SSH & OVPN PANEL\e[0m"
 echo -e "\e[1;31m* [2]\e[0m  \e[1;32m: WIREGUARD PANEL\e[0m"
 echo -e "\e[1;31m* [3]\e[0m  \e[1;32m: L2TP PANEL\e[0m"
@@ -38,7 +41,7 @@ echo -e "\e[1;31m* [9]\e[0m  \e[1;32m: VLESS PANEL\e[0m"
 echo -e "\e[1;31m* [10]\e[0m \e[1;32m: XRAY PANEL\e[0m"
 echo -e "\e[1;31m* [11]\e[0m \e[1;32m: TROJAN PANEL\e[0m"
 echo -e ""
-echo -e "\e[1;33m=============================-SYSTEM-==========================\e[0m\e[0m'"
+echo -e "\e[1;33m=============================-SYSTEM-==========================\e[0m\e[0m'" | lolcat
 echo -e "\e[1;31m* [12]\e[0m \e[1;32m: Add Or Change Subdomain Host For VPS\e[0m"
 echo -e "\e[1;31m* [13]\e[0m \e[1;32m: Renew Certificate \e[0m"
 echo -e "\e[1;31m* [14]\e[0m \e[1;32m: Change Port Of Some Service\e[0m"
@@ -57,7 +60,7 @@ echo -e "\e[1;31m* [26]\e[0m \e[1;32m: Info Script Auto Install\e[0m"
 echo -e "\e[1;31m* [27]\e[0m \e[1;32m: Exit From VPS \e[0m"
 
 echo -e ""
-echo -e "\e[1;33m====================================================================\e[0m"
+echo -e "\e[1;33m====================================================================\e[0m" | lolcat
 echo -e ""
 read -p "        Select From Options [1-27 or x]: " menu
 echo -e ""
